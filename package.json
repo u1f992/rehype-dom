@@ -1,0 +1,23 @@
+{
+  "name": "@u1f992/rehype-dom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "build": "tsc --allowJs --declaration --emitDeclarationOnly --esModuleInterop --strict --skipLibCheck index.js"
+  },
+  "keywords": [],
+  "author": "Koutaro Mukai",
+  "license": "MIT",
+  "description": "rehype-dom is a meta-plugin that converts a hast into DOM, applies DOM manipulations, and then converts it back to hast.",
+  "type": "module",
+  "dependencies": {
+    "jsdom": "^26.1.0",
+    "rehype": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}
